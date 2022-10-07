@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  min-height: 100vh;
+  background-color: #F0F1F6;
+  display: flex;
+  align-items: center;
+}
+section .slider-wrapper {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+section .slider-wrapper .arrow-container {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+section .slider-wrapper .arrow-container .arrow {
+  font-size: 3.5rem;
+}
+section .slider-wrapper .slider-stable-container {
+  width: 80%;
+  overflow: hidden;
+}
+section .slider-wrapper .slider-stable-container .slider-moving-container {
+  display: flex;
+  transition: transform 0.4s linear;
+}
+section .slider-wrapper .slider-stable-container .slider-moving-container .card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+section .slider-wrapper .slider-stable-container .slider-moving-container .card .img-container .card-img {
+  width: 6.8rem;
+}
+section .slider-wrapper .slider-stable-container .slider-moving-container .card .person-name {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+section .slider-wrapper .slider-stable-container .slider-moving-container .card .person-role {
+  font-size: 1.6rem;
+  opacity: 0.8rem;
+  text-align: center;
+}
+section .slider-wrapper .slider-stable-container .slider-moving-container .card .connect-btn {
+  border: 0;
+  outline: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: white;
+  background-color: #748EFF;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
